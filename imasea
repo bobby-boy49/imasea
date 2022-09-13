@@ -1,0 +1,5 @@
+#!/bin/bash
+
+w=$1
+
+find ~/Pictures/ -type f | grep "$w" | sxiv -ptiof
